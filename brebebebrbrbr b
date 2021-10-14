@@ -1,0 +1,16 @@
+sentence = input("Write a sentence > ")
+counter = 0
+z = 0
+while counter < len(sentence):
+    if sentence[counter] == "a":
+        z += 1
+    if sentence[counter] == "e":
+        z += 1
+    if sentence[counter] == "i":
+        z += 1
+    if sentence[counter] == "o":
+        z += 1
+    if sentence[counter] == "u":
+        z += 1
+    counter += 1
+print(z)
